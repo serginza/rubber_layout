@@ -1,0 +1,57 @@
+@import url('__brown-block/main-block__brown-block.css');
+@import url('__coffe/main-block__coffe.css');
+@import url('__door/main-block__door.css');
+@import url('__face/main-block__face.css');
+@import url('__gray-woman/main-block__gray-woman.css');
+@import url('__green-woman/main-block__green-woman.css');
+@import url('__lorem/main-block__lorem.css');
+@import url('__man/main-block__man.css');
+@import url('__red-block/main-block__red-block.css');
+@import url('__smile-woman/main-block__smile-woman.css');
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+    	url('../assets/fonts/inter/Inter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: local('InterSemiBold'),
+    	url('../assets/fonts/inter/InterBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.main-block {
+	display: grid;
+	margin: 20px auto 0;
+	max-width: 1280px;
+	width: 100%;
+	height: auto;
+	outline: 3px solid red;
+	grid-template: repeat(3) / repeat(5);
+}
+
+.block {
+	outline: 1px solid blue;
+	text-align: center;
+}
+
+@media (min-width: 1200px) and (max-width: 1536px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+}

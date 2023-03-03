@@ -1,0 +1,31 @@
+.main-block__face {
+	grid-column: 1 / 2;  grid-row: 1 / 3;
+}
+
+.main-block__title {
+	margin: 125px auto 0;
+	outline: 1px solid blue;
+}
+
+.main-block__title-text {
+	outline: 1px solid black;
+	font-family: 'InterSemiBold';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 110%;
+	/* or 70px */
+	color: #000000;
+}
+
+.main-block__icons {
+	margin: 137px auto 0;
+	width: 123px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-block__icon:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}

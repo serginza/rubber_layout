@@ -1,0 +1,4 @@
+.main-block__man {
+	grid-column: 5 / 5;  grid-row: 3 / 3;
+	max-height: 248px;
+}

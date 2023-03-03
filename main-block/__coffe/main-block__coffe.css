@@ -1,0 +1,5 @@
+.main-block__coffe {
+	grid-column: 2 / 3;  grid-row: 3 / 3;
+	max-width: 199px;
+	max-height: 247px;
+}
