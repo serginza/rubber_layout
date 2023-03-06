@@ -13,5 +13,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
 	.main-block__brown-block {
 		grid-column: 2 / 3;  grid-row: 4 / 5;
+		min-width: 100px;
 	}
 }
