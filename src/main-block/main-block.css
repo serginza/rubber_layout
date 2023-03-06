@@ -12,30 +12,14 @@
 
 .main-block {
 	display: grid;
-	margin: 0 auto 0;
+	margin: 0 auto;
 	max-width: 100vw;
-	outline: 3px solid red;
 	grid-template: repeat(3) / repeat(5);
 	grid-auto-columns: (100px, auto);
-}
-
-.block {
-	outline: 1px solid blue;
 }
 
 .main-block__img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-	.main-block {
-		grid-template: repeat(4) / repeat(4);
-	}
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-
 }

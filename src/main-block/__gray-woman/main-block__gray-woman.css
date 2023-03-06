@@ -3,8 +3,15 @@
 	max-height: 288px;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.main-block__gray-woman {
 		grid-column: 4 / 5;  grid-row: 2 / 3;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.main-block__gray-woman {
+		grid-column: 2 / 3;  grid-row: 5 / 6;
+		max-height: 350px;
 	}
 }

@@ -3,9 +3,16 @@
 	max-height: 248px;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.main-block__man {
 		grid-column: 4 / 5;  grid-row: 4 / 5;
 		/**/
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.main-block__man {
+		grid-column: 2 / 3;  grid-row: 7 / 8;
+		max-height: 365px;
 	}
 }

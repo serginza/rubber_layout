@@ -4,7 +4,13 @@
 	min-width: 165px;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
+	.main-block__brown-block {
+		grid-column: 2 / 3;  grid-row: 4 / 5;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
 	.main-block__brown-block {
 		grid-column: 2 / 3;  grid-row: 4 / 5;
 	}
