@@ -3,3 +3,9 @@
 	max-height: 247px;
 	/*width: 85%;*/
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.main-block__coffe {
+		grid-column: 1 / 2;  grid-row: 4 / 5;
+	}
+}

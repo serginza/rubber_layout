@@ -3,3 +3,9 @@
 	background-color: #A6806B;
 	min-width: 165px;
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.main-block__brown-block {
+		grid-column: 2 / 3;  grid-row: 4 / 5;
+	}
+}

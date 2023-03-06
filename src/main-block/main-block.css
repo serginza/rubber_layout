@@ -12,9 +12,8 @@
 
 .main-block {
 	display: grid;
-	margin: 20px auto 0;
+	margin: 0 auto 0;
 	max-width: 100vw;
-	height: auto;
 	outline: 3px solid red;
 	grid-template: repeat(3) / repeat(5);
 	grid-auto-columns: (100px, auto);
@@ -31,16 +30,10 @@
 
 }
 
-@media (min-width: 1200px) and (max-width: 1536px) {
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
+@media (min-width: 769px) and (max-width: 992px) {
+	.main-block {
+		grid-template: repeat(4) / repeat(4);
+	}
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

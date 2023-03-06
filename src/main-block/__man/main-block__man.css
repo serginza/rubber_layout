@@ -2,3 +2,10 @@
 	grid-column: 5 / 5;  grid-row: 3 / 3;
 	max-height: 248px;
 }
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.main-block__man {
+		grid-column: 4 / 5;  grid-row: 4 / 5;
+		/**/
+	}
+}
