@@ -14,3 +14,14 @@
 	text-align: left;
 	color: #F2F2F2;
 }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.main-block__lorem {
+		display: flex;
+	}
+
+	.main-block__text {
+		margin: auto;
+	}
+}

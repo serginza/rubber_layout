@@ -1,0 +1,10 @@
+.main-block__door {
+	grid-column: 4 / 5;  grid-row: 2 / 4;
+	max-height: 433px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.main-block__door {
+		max-height: none;
+	}
+}

@@ -1,0 +1,23 @@
+.main-block__red-block {
+	background-color: #A61C1C;
+	grid-column: 5 / 5;  grid-row: 2 / 2;
+	min-width: 232px;
+	min-height: 185px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.main-block__red-block {
+		min-width: auto;s
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.main-block__red-block {
+		min-width: auto;
+		/**/
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+}

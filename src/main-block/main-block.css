@@ -9,35 +9,26 @@
 @import url('__red-block/main-block__red-block.css');
 @import url('__smile-woman/main-block__smile-woman.css');
 
-@font-face {
-    font-family: 'Inter';
-    src: local('Inter'),
-    	url('../assets/fonts/inter/Inter.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'InterSemiBold';
-    src: local('InterSemiBold'),
-    	url('../assets/fonts/inter/InterBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
 
 .main-block {
 	display: grid;
 	margin: 20px auto 0;
-	max-width: 1280px;
-	width: 100%;
+	max-width: 100vw;
 	height: auto;
 	outline: 3px solid red;
 	grid-template: repeat(3) / repeat(5);
+	grid-auto-columns: (100px, auto);
 }
 
 .block {
 	outline: 1px solid blue;
-	text-align: center;
+}
+
+.main-block__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
 }
 
 @media (min-width: 1200px) and (max-width: 1536px) {
