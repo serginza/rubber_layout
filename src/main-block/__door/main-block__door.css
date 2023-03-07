@@ -3,6 +3,12 @@
 	max-height: 433px;
 }
 
+@media (min-width: 1536px) {
+	.main-block__door {
+		max-height: none;
+	}
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
 	.main-block__door {
 		max-height: none;

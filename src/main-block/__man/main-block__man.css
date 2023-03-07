@@ -3,6 +3,12 @@
 	max-height: 248px;
 }
 
+@media (min-width: 1536px) {
+	.main-block__man {
+		max-height: none;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.main-block__man {
 		grid-column: 4 / 5;  grid-row: 4 / 5;

@@ -1,7 +1,7 @@
 .main-block__brown-block {
 	grid-column: 3 / 4;  grid-row: 3 / 3;
 	background-color: #A6806B;
-	min-width: 165px;
+	min-width: 15vw;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -13,6 +13,5 @@
 @media (min-width: 320px) and (max-width: 767px) {
 	.main-block__brown-block {
 		grid-column: 2 / 3;  grid-row: 4 / 5;
-		min-width: 100px;
 	}
 }
