@@ -1,6 +1,6 @@
 .main-block__face {
 	grid-column: 1 / 2;  grid-row: 1 / 3;
-	min-width: 458px; /*при >1200px*/
+	min-width: 458px;
 	background-color: white;
 	text-align: center;
 	display: flex;
@@ -28,11 +28,20 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	vertical-align: bottom;
+}
+
+.main-block__icon {
+	vertical-align: bottom;
 }
 
 .main-block__icon:hover {
 	opacity: 0.6;
 	cursor: pointer;
+}
+
+.main-block__icon:active {
+	opacity: 0.8;
 }
 
 @media (min-width: 1536px) {
@@ -61,6 +70,7 @@
 	.main-block__face {
 		grid-column: 1 / 3;  grid-row: 1 / 2;
 		min-width: auto;
+		min-height: 400px;
 	}
 
 	.main-block__title {
