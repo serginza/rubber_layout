@@ -5,7 +5,12 @@
 
 @media (min-width: 1536px) {
 	.main-block__green-woman {
-		max-height: none;
+		min-height: 416px;
+		max-height: 64vh;
+	}
+
+	.main-block__green-woman img {
+		height: 101%;
 	}
 }
 

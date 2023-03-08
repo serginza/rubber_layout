@@ -5,7 +5,12 @@
 
 @media (min-width: 1536px) {
 	.main-block__smile-woman {
-		max-height: none;
+		min-height: 253px;
+		max-height: 39vh;
+	}
+
+	.main-block__smile-woman img {
+		height: 101%;
 	}
 }
 

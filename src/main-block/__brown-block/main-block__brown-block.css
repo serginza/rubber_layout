@@ -4,6 +4,10 @@
 	min-width: 15vw;
 }
 
+.main-block__brown-block p {
+	visibility: hidden;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.main-block__brown-block {
 		grid-column: 2 / 3;  grid-row: 4 / 5;

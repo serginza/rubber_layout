@@ -1,11 +1,16 @@
 .main-block__man {
 	grid-column: 5 / 5;  grid-row: 3 / 3;
-	max-height: 248px;
+	max-height: 247px;
 }
 
 @media (min-width: 1536px) {
 	.main-block__man {
-		max-height: none;
+		min-height: 228px;
+		max-height: 35vh;
+	}
+
+	.main-block__man img {
+		height: 100%;
 	}
 }
 

@@ -1,12 +1,16 @@
 .main-block__coffe {
 	grid-column: 2 / 3;  grid-row: 3 / 3;
 	max-height: 247px;
-	/*width: 85%;*/
 }
 
 @media (min-width: 1536px) {
 	.main-block__coffe {
-		max-height: none;
+		min-height: 226px;
+		max-height: 35vh;
+	}
+
+	.main-block__coffe img {
+		height: 100%;
 	}
 }
 
