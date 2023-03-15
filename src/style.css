@@ -1,21 +1,5 @@
 @import url('main-block/main-block.css');
 
-@font-face {
-    font-family: 'Inter';
-    src: local('Inter'),
-    	url('assets/fonts/inter/Inter.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'InterSemiBold';
-    src: local('InterSemiBold'),
-    	url('assets/fonts/inter/InterBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
 body {
 	background-color: #fff4e4;
 }

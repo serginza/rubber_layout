@@ -6,11 +6,11 @@
 @media (min-width: 1536px) {
 	.main-block__smile-woman {
 		min-height: 253px;
-		max-height: 39vh;
+		max-height: 40vh;
 	}
 
 	.main-block__smile-woman img {
-		height: 101%;
+		height: 100%;
 	}
 }
 

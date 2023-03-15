@@ -6,11 +6,11 @@
 @media (min-width: 1536px) {
 	.main-block__green-woman {
 		min-height: 416px;
-		max-height: 64vh;
+		max-height: 65vh;
 	}
 
 	.main-block__green-woman img {
-		height: 101%;
+		height: 104%;
 	}
 }
 
